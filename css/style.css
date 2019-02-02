@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700,900');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	color: #000;
+	background-color: #FFFFFF !important;	
+}
+
+.header-area.sticky .navbar-light .nav-link{
+	color: #000;
+}
+
+.header-area.sticky .navbar-brand .d-none{
+	display: block !important
+	color: #000;
+	
+}
+
+.header-area.sticky .navbar-brand .mostrar{
+	display: none !important;
+}
+
+#home{
+	background-image: url(../img/fotoiceland2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:#000000;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	position: relative;
+}
+
+.overlay-home{
+	position: absolute;
+	width: 100%;
+	top:0;
+	left:0;
+	background-color: rgba(97,62,237,0.72);
+	height: 100%;
+	background: rgba(97,62,255,1);
+background: -moz-linear-gradient(left, rgba(97,62,255,1) 0%, rgba(97,64,254,1) 2%, rgba(101,121,235,0.78) 75%, rgba(101,121,235,0.7) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(97,62,255,1)), color-stop(2%, rgba(97,64,254,1)), color-stop(75%, rgba(101,121,235,0.78)), color-stop(100%, rgba(101,121,235,0.7)));
+background: -webkit-linear-gradient(left, rgba(97,62,255,1) 0%, rgba(97,64,254,1) 2%, rgba(101,121,235,0.78) 75%, rgba(101,121,235,0.7) 100%);
+background: -o-linear-gradient(left, rgba(97,62,255,1) 0%, rgba(97,64,254,1) 2%, rgba(101,121,235,0.78) 75%, rgba(101,121,235,0.7) 100%);
+background: -ms-linear-gradient(left, rgba(97,62,255,1) 0%, rgba(97,64,254,1) 2%, rgba(101,121,235,0.78) 75%, rgba(101,121,235,0.7) 100%);
+background: linear-gradient(to right, rgba(97,62,255,1) 0%, rgba(97,64,254,1) 2%, rgba(101,121,235,0.78) 75%, rgba(101,121,235,0.7) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#613eff', endColorstr='#6579eb', GradientType=1 );
+}
+
+#home h2{
+	font-size: 95px;
+	font-weight: 800;
+	margin-bottom: 20px;
+	padding-top: 40px;
+}
+
+.btn-black{
+	font-weight: 100;
+	background-color: #000000;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 0;
+	padding: 10px 25px;
+	font-size: 14px;
+}
+
+.btn-black:hover{
+	background-color:#fff;
+	color:#000;
+}
+
+#descuento{
+	color: #000;
+	background-color: #fff;
+	font-weight: 400;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	font-weight: 24px;
+	}
+	
+#descuento p{
+	font-size: 20px;
+	}
+	
+#paquetes{
+	padding: 20px 0;
+	}
+	
+#paquetes h4{
+	font-size:24px;
+	font-weight: 900;
+	}	
+	
+#paquetes p{
+	font-size: 18px;
+	}	
+#sitios{
+	padding-top: 20px;
+	}	
+.section{
+	padding:5% 0;
+}
+
+.titulo{
+	font-size: 45px;
+	color:#000;
+	font-weight: 100;
+	margin-bottom: 35px;
+	text-align:center;
+}
+
+.info-section{
+	padding-top: 20%;
+}
+
+.width-info-section{
+	width: 70%;
+}
+
+#sitios{
+	padding-left: 40px;
+	}
+	
+#sitios .container{
+	border:border: 1px solid #ddd;
+	}
+#sitios h3{
+	padding-top: 5px;
+	text-align:center;
+	font-weight:100;
+	font-size:24px;
+}
+
+
+
+
+
+.btn-white-shadow{
+	background-color: #fff;
+	color: #528eff;
+	text-transform: uppercase;
+	border-radius: 0;
+	padding: 10px 25px;
+	font-size: 14px;
+	box-shadow: 0px 0px 30px 1px rgba(0,0,0,.30);
+}
+
+.btn-white-shadow:hover{
+	background-color:#fff;
+	color: #528eff;
+	box-shadow: 0px 0px 50px 5px rgba(0,0,0,.30);
+}
+
+.row-separador{
+	margin: 5% 0;
+}
+
+#about_3{
+	background-color: #7530EE;
+	color:#fff;
+}
+
+#about_3 .titulo{
+	color: #FFFFFF;
+}
+
+#about_3 .info-section{
+	padding-top: 5%;
+}
+
+#features .titulo{
+	text-align: center;
+}
+
+#features h3{
+	font-size: 20px;
+}
+.info-features{
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	padding: 30px 20px;
+	text-align: center;
+}
+
+i{
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 10%;
+}
+
+
+#contact{
+	border-top: 1px solid #eee;
+}
+
+#contact h2{
+	font-weight: 900;
+	}
+footer{
+	background-color: #000;
+	color:#fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+footer h3{
+	font-weight: 100;
+	font-size: 18px;
+	text-align:center;
+	}
+
+/*De 0px hasta 480px*/
+@media (max-width: 480px){
+	
+	.row article{
+		margin-top: 5px;
+	}
+}
+/*De 768px hacia arriba*/
+@media (min-width:768px){
+	
+	
+}
+
+/*De 768px hasta 1200px*/
+@media (min-width: 768px) and (max-width: 1200){
+	
+}
+
+@media (max-width: 768px){
+	
+	header{
+		position: inherit;
+	}
+	
+	.nav-link{
+		color: #000 !important;
+	}
+}
